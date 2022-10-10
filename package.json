@@ -14,7 +14,8 @@
     "lint:lint-staged": "lint-staged",
     "prepare": "husky install",
     "deps": "yarn upgrade-interactive --latest",
-    "commit": "git add . && git-cz"
+    "commit": "git add . && git-cz",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@nutui/nutui": "^3.2.3",
@@ -23,6 +24,7 @@
     "@vueuse/integrations": "9.3.0",
     "axios": "1.1.2",
     "dayjs": "^1.11.5",
+    "gh-pages": "^4.0.0",
     "mitt": "^3.0.0",
     "pinia": "^2.0.22",
     "pinia-plugin-persistedstate": "^2.2.0",

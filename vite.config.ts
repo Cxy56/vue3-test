@@ -12,6 +12,7 @@ export default function ({ command }: ConfigEnv): UserConfigExport {
   const root = process.cwd();
   return {
     root,
+    base: './',
     resolve: {
       alias: [
         {
